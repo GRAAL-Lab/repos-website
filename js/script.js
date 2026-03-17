@@ -20,27 +20,16 @@ if (sonar) {
 }
 
 const toggleButton = document.getElementById("theme-toggle");
-const toggleText = toggleButton ? toggleButton.querySelector(".theme-toggle-text") : null;
 const savedTheme = localStorage.getItem("theme");
 
 if (savedTheme === "dark") {
   document.body.classList.add("dark-theme");
 }
 
-function updateThemeLabel() {
-  if (!toggleText) return;
-  toggleText.textContent = document.body.classList.contains("dark-theme")
-    ? "Light mode"
-    : "Dark mode";
-}
-
-updateThemeLabel();
-
 if (toggleButton) {
   toggleButton.addEventListener("click", () => {
     document.body.classList.toggle("dark-theme");
     const isDark = document.body.classList.contains("dark-theme");
     localStorage.setItem("theme", isDark ? "dark" : "light");
-    updateThemeLabel();
   });
 }
