@@ -2,6 +2,8 @@
 
 This repository contains a minimal static webpage used as a landing hub for the GRAAL Lab. GitHub organization.
 
+Website link: https://graal-lab.github.io/repos-website/.
+
 ## Structure
 
 * `index.html` → main entry point (layout, content, links)
