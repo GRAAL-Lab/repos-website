@@ -1,4 +1,47 @@
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+# GRAAL Lab. – Repositories Website
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+This repository contains a minimal static webpage used as a landing hub for the GRAAL Lab. GitHub organization.
+
+## Structure
+
+* `index.html` → main entry point (layout, content, links)
+* `css/styles.css` *(optional)* → external styles (if separated from HTML)
+
+The page is fully static (no build tools, no dependencies) and can be directly hosted via GitHub Pages.
+
+## Design
+
+The website uses:
+
+* modern, minimal layout
+* white / blue / cyan color palette inspired by marine robotics
+* responsive grid for repository cards
+* simple HTML + CSS (no frameworks)
+
+## Editing
+
+To add new repositories:
+
+1. Duplicate an existing `<article class="card">` block in `index.html`
+2. Update:
+
+   * title
+   * description
+   * link
+   * tags
+
+To modify styling:
+
+* edit the CSS (either in `<style>` or `css/styles.css` if externalized)
+
+## Deployment
+
+Works out-of-the-box with **GitHub Pages**:
+
+* set branch to `main` (or `docs/` if preferred)
+* no build step required
+
+---
+
+Designed to stay lightweight, readable, and easy to extend manually.
+
