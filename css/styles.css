@@ -170,37 +170,24 @@ body::before {
 
 /* ☀️ sun */
 .icon.sun {
+  position: relative;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-
-  /* core */
-  background: radial-gradient(circle, #fff 0%, var(--accent) 60%, var(--accent-deep) 100%);
-
-  /* soft glow */
-  box-shadow:
-    0 0 10px rgba(43, 187, 216, 0.4),
-    0 0 20px rgba(43, 187, 216, 0.25);
+  background: var(--accent);
 }
 
-/* rays */
+/* Rays */
 .icon.sun::before {
   content: "";
   position: absolute;
   inset: -6px;
   border-radius: 50%;
-
-  background:
-    repeating-conic-gradient(
-      rgba(43, 187, 216, 0.6) 0deg 8deg,
-      transparent 8deg 22deg
-    );
-
-  mask: radial-gradient(circle, transparent 55%, black 56%);
-  -webkit-mask: radial-gradient(circle, transparent 55%, black 56%);
-
-  opacity: 0.7;
+  background: repeating-conic-gradient(
+    var(--accent) 0deg 10deg,
+    transparent 10deg 30deg
+  );
+  mask: radial-gradient(circle, transparent 45%, black 46%);
 }
 
 /* 🌙 moon */
@@ -417,10 +404,6 @@ body.dark-theme .nav a:hover {
 
   .brand {
     min-width: 0;
-  }
-
-  .brand-text small {
-    display: none;
   }
 
   body.menu-open::before {
