@@ -2,23 +2,20 @@
 
 This repository contains a minimal static webpage used as a landing hub for the GRAAL Lab. GitHub organization.
 
-Website link: https://graal-lab.github.io/repos-website/.
+Website link: https://graal-lab.github.io/.github/.
 
 ## Structure
 
 * `index.html` → main entry point (layout, content, links)
-* `css/styles.css` *(optional)* → external styles
-
-The page is fully static (no build tools, no dependencies) and can be directly hosted via GitHub Pages.
+* `css/styles.css` → external styles
+* `js/script.js` → dynamic objects
 
 ## Design
 
 The website uses:
 
-* modern, minimal layout
-* white / blue / cyan color palette inspired by marine robotics
-* responsive grid for repository cards
-* simple HTML + CSS (no frameworks)
+* simple HTML + CSS + JS (no frameworks)
+* bunny-fonts (Roboto Slab, Fira Sans)
 
 ## Editing
 
