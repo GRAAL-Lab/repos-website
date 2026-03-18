@@ -64,8 +64,7 @@ body {
 h1,
 h2,
 h3,
-.brand-text > span,
-.card-tag {
+.brand-text > small {
   font-family: "Roboto Slab", Georgia, serif;
 }
 
@@ -307,7 +306,6 @@ body.dark-theme .topbar {
   font-weight: 500;
   color: var(--muted);
   letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 .nav {
