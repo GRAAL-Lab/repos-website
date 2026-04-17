@@ -2,9 +2,9 @@
 
 # GRAAL Lab. – Repositories Website
 
-This repository contains a minimal static webpage used as a landing hub for the GRAAL Laboratory GitHub organization.
+This is the GRAAL Lab. GitHub organization. Here is a curated entry point for our repos: https://graal-lab.github.io/.github/.
 
-Link: https://graal-lab.github.io/.github/.
+Below you can find the contributing guidelines.
 
 ## Contributing Guidelines
 
