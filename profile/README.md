@@ -1,4 +1,4 @@
-## GRAAL Lab. Repositories & Resources
+## GRAAL Lab Repositories & Resources
 
 Here is a curated entry point for our repos: https://graal-lab.github.io/.github/.
 
