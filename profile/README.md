@@ -1,5 +1,5 @@
 ## GRAAL Lab. Repositories & Resources
 
-A curated entry point to GRAAL Lab. repositories, tools, and resources for marine robotics research.
+Here is a curated entry point for our repos: https://graal-lab.github.io/.github/.
 
-https://graal-lab.github.io/.github/
+Here you can find the [**Contributing Guidelines**](https://github.com/GRAAL-Lab/.github/blob/main/README.md).
