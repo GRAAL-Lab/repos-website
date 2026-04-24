@@ -1,6 +1,6 @@
-# GRAAL Lab – Repositories Website
+# GRAAL Lab Organization
 
-This is the GRAAL Lab GitHub organization. Here is a curated entry point for our repos: https://graal-lab.github.io/.github/.
+Here is a curated entry point for our repos: https://graal-lab.github.io.
 
 Below you can find the contributing guidelines.
 
